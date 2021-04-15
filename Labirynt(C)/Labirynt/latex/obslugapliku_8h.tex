@@ -1,0 +1,93 @@
+\hypertarget{obslugapliku_8h}{}\section{Dokumentacja pliku obslugapliku.\+h}
+\label{obslugapliku_8h}\index{obslugapliku.h@{obslugapliku.h}}
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{obslugapliku_8h_a18b1b88084b2d7a3b3885b65762ea9ec}{zczytajtablice}} (\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$p\+Head)
+\item 
+bool \mbox{\hyperlink{obslugapliku_8h_a72ade83582a79835ab37a56edfee9ecc}{zczytaj}} (\mbox{\hyperlink{structpole}{wskpole}} tablica, \mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnicy, int $\ast$wysokosc, int $\ast$szerokosc, \mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$postac, char $\ast$nazwa)
+\item 
+bool \mbox{\hyperlink{obslugapliku_8h_a21f5e8f504f8f9785f8e68abbe0becff}{czytaniemapy}} (\mbox{\hyperlink{structpole}{wskpole}} tab, \mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnicy, int $\ast$wysokosc, int $\ast$szerokosc, \mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$postac)
+\item 
+void \mbox{\hyperlink{obslugapliku_8h_a42a53ccd6a3a23f2687e94ca6fc227e5}{zapiszmape}} (\mbox{\hyperlink{structpole}{wskpole}} mapa, \mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnicy, int wiersze, int kolumny, \mbox{\hyperlink{structkordy}{kordy}} $\ast$postac)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{obslugapliku_8h_a21f5e8f504f8f9785f8e68abbe0becff}\label{obslugapliku_8h_a21f5e8f504f8f9785f8e68abbe0becff}} 
+\index{obslugapliku.h@{obslugapliku.h}!czytaniemapy@{czytaniemapy}}
+\index{czytaniemapy@{czytaniemapy}!obslugapliku.h@{obslugapliku.h}}
+\subsubsection{\texorpdfstring{czytaniemapy()}{czytaniemapy()}}
+{\footnotesize\ttfamily bool czytaniemapy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{wskpole}}}]{tab,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnicy,  }\item[{int $\ast$}]{wysokosc,  }\item[{int $\ast$}]{szerokosc,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$}]{postac }\end{DoxyParamCaption})}
+
+Funkcja obsluguje menu wpisywania nazwy mapy 
+\begin{DoxyParams}{Parametry}
+{\em tablica} & wskaznik na mape \\
+\hline
+{\em przeciwnicy} & wskaznik na liste przeciwnikow \\
+\hline
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em szerokosc} & ilosc kolumn mapy \\
+\hline
+{\em postac} & wskaznik na pozycje postaci \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy gracz chce przerwac wpisywanie mapy i wrocic do menu glownego 
+\end{DoxyReturn}
+\mbox{\Hypertarget{obslugapliku_8h_a42a53ccd6a3a23f2687e94ca6fc227e5}\label{obslugapliku_8h_a42a53ccd6a3a23f2687e94ca6fc227e5}} 
+\index{obslugapliku.h@{obslugapliku.h}!zapiszmape@{zapiszmape}}
+\index{zapiszmape@{zapiszmape}!obslugapliku.h@{obslugapliku.h}}
+\subsubsection{\texorpdfstring{zapiszmape()}{zapiszmape()}}
+{\footnotesize\ttfamily void zapiszmape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{wskpole}}}]{mapa,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnicy,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{postac }\end{DoxyParamCaption})}
+
+Funkcja zapisuje do pliku mape 
+\begin{DoxyParams}{Parametry}
+{\em tablica} & wskaznik na mape \\
+\hline
+{\em przeciwnicy} & wskaznik na liste przeciwnikow \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+{\em postac} & wskaznik na pozycje postaci \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{obslugapliku_8h_a72ade83582a79835ab37a56edfee9ecc}\label{obslugapliku_8h_a72ade83582a79835ab37a56edfee9ecc}} 
+\index{obslugapliku.h@{obslugapliku.h}!zczytaj@{zczytaj}}
+\index{zczytaj@{zczytaj}!obslugapliku.h@{obslugapliku.h}}
+\subsubsection{\texorpdfstring{zczytaj()}{zczytaj()}}
+{\footnotesize\ttfamily bool zczytaj (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{wskpole}}}]{tablica,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnicy,  }\item[{int $\ast$}]{wysokosc,  }\item[{int $\ast$}]{szerokosc,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$}]{postac,  }\item[{char $\ast$}]{nazwa }\end{DoxyParamCaption})}
+
+Funkcja zczytuje plik zawierajacy mape 
+\begin{DoxyParams}{Parametry}
+{\em tablica} & wskaznik na mape \\
+\hline
+{\em przeciwnicy} & wskaznik na liste przeciwnikow \\
+\hline
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em szerokosc} & ilosc kolumn mapy \\
+\hline
+{\em postac} & wskaznik na pozycje postaci \\
+\hline
+{\em nazwa} & nazwa mapy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy otwarcie pliku sie udalo i czy dane sa poptawne 
+\end{DoxyReturn}
+\mbox{\Hypertarget{obslugapliku_8h_a18b1b88084b2d7a3b3885b65762ea9ec}\label{obslugapliku_8h_a18b1b88084b2d7a3b3885b65762ea9ec}} 
+\index{obslugapliku.h@{obslugapliku.h}!zczytajtablice@{zczytajtablice}}
+\index{zczytajtablice@{zczytajtablice}!obslugapliku.h@{obslugapliku.h}}
+\subsubsection{\texorpdfstring{zczytajtablice()}{zczytajtablice()}}
+{\footnotesize\ttfamily void zczytajtablice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$}]{p\+Head }\end{DoxyParamCaption})}
+
+Funkcja zczytuje z pliku tablice wynikow 
+\begin{DoxyParams}{Parametry}
+{\em p\+Head} & wskaznik na tablice wynikow \\
+\hline
+\end{DoxyParams}

@@ -1,0 +1,56 @@
+﻿  gra.cpp
+  grafika.cpp
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(4,25): warning C4356: 'kontener::przycisk1': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(5,25): warning C4356: 'kontener::przycisk2': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(6,25): warning C4356: 'kontener::przycisk3': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(7,25): warning C4356: 'kontener::reguly': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(8,27): warning C4356: 'kontener::listaokien': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(9,24): warning C4356: 'kontener::mapa': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(10,22): warning C4356: 'kontener::miejsce': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(11,30): warning C4356: 'kontener::hInstance': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(12,22): warning C4356: 'kontener::tekst1': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(13,22): warning C4356: 'kontener::tekst2': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(14,22): warning C4356: 'kontener::tekst3': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(15,25): warning C4356: 'kontener::poltekst1': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(16,25): warning C4356: 'kontener::poltekst2': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(17,21): warning C4356: 'kontener::lista': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(18,28): warning C4356: 'kontener::NazwaKlasy': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(19,23): warning C4356: 'kontener::Komunikat': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(20,26): warning C4356: 'kontener::g_hBrush': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(21,27): warning C4356: 'kontener::g_hBrush1': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(22,23): warning C4356: 'kontener::nazwa1': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(23,23): warning C4356: 'kontener::nazwa2': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(24,23): warning C4356: 'kontener::pbianacz': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(25,24): warning C4356: 'kontener::pbianabia': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(26,22): warning C4356: 'kontener::pcznacz': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(27,23): warning C4356: 'kontener::pcznabia': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(28,23): warning C4356: 'kontener::dbianacz': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(29,24): warning C4356: 'kontener::dbianabia': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(30,22): warning C4356: 'kontener::dcznacz': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(31,23): warning C4356: 'kontener::dcznabia': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(32,20): warning C4356: 'kontener::bialy': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(33,21): warning C4356: 'kontener::czarny': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(34,22): warning C4356: 'kontener::zielony': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(35,23): warning C4356: 'kontener::czerwony': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(36,22): warning C4356: 'kontener::pionowy': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(37,22): warning C4356: 'kontener::poziomy': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(38,21): warning C4356: 'kontener::dograf': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(39,31): warning C4356: 'kontener::zmianyusu': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(40,35): warning C4356: 'kontener::zmianynieusu': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(41,18): warning C4356: 'kontener::popx': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(42,18): warning C4356: 'kontener::popy': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(43,21): warning C4356: 'kontener::czybic': static data member cannot be initialized via derived class
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\grafika.cpp(44,20): warning C4356: 'kontener::remis': static data member cannot be initialized via derived class
+  listaokien.cpp
+  listazmian.cpp
+  plansza.cpp
+  pole.cpp
+  Source.cpp
+  zapis.cpp
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\zapis.cpp(7,10): warning C4244: 'initializing': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\zapis.cpp(12,18): warning C4244: '=': conversion from 'std::streamoff' to 'int', possible loss of data
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\zapis.cpp(31,10): warning C4553: '==': result of expression not used; did you intend '='?
+  zasady.cpp
+  Generating Code...
+D:\Projekty\Projekty\c-semestr3\warcabyv3\warcabyv3\zasady.cpp(57): warning C4715: 'zasady::ustawzasady': not all control paths return a value
+  warcabyv3.vcxproj -> D:\Projekty\Projekty\c-semestr3\warcabyv3\Debug\warcabyv3.exe

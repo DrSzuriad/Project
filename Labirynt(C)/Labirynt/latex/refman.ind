@@ -1,0 +1,212 @@
+\begin{theindex}
+
+  \item {czyszczenie}
+    \subitem {Header.h}, \hyperpage{15}
+  \item {czyszczeniebufora}
+    \subitem {Header.h}, \hyperpage{15}
+  \item {czytaniemapy}
+    \subitem {obslugapliku.h}, \hyperpage{16}
+
+  \indexspace
+
+  \item {dodajwynik}
+    \subitem {tablicawynikow.h}, \hyperpage{25}
+  \item {dodlista}
+    \subitem {gra.h}, \hyperpage{9}
+  \item {dodprzec}
+    \subitem {przeciwnicy.h}, \hyperpage{18}
+  \item {dowolnyprzycisk}
+    \subitem {Header.h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {edycja}
+    \subitem {edytormap.h}, \hyperpage{7}
+  \item {edytormap}
+    \subitem {edytormap.h}, \hyperpage{8}
+  \item {edytormap.h}, \hyperpage{7}
+    \subitem {edycja}, \hyperpage{7}
+    \subitem {edytormap}, \hyperpage{8}
+    \subitem {nowamapa}, \hyperpage{8}
+    \subitem {przemieszczenie}, \hyperpage{8}
+    \subitem {staramapa}, \hyperpage{8}
+    \subitem {wktorastrone}, \hyperpage{8}
+    \subitem {wpisz}, \hyperpage{8}
+  \item {Ekwipunekstr}, \hyperpage{5}
+
+  \indexspace
+
+  \item {gdzieiscprze}
+    \subitem {przeciwnicy.h}, \hyperpage{20}
+  \item {gotoxy}
+    \subitem {Header.h}, \hyperpage{15}
+  \item {gra}
+    \subitem {gra.h}, \hyperpage{10}
+  \item {gra.h}, \hyperpage{9}
+    \subitem {dodlista}, \hyperpage{9}
+    \subitem {gra}, \hyperpage{10}
+    \subitem {klawiatura}, \hyperpage{10}
+    \subitem {otwdrzwi}, \hyperpage{10}
+    \subitem {poruszaniesie}, \hyperpage{12}
+    \subitem {ruch}, \hyperpage{12}
+    \subitem {znajdzwekw}, \hyperpage{13}
+    \subitem {znaklu}, \hyperpage{13}
+
+  \indexspace
+
+  \item {Header.h}, \hyperpage{14}
+    \subitem {czyszczenie}, \hyperpage{15}
+    \subitem {czyszczeniebufora}, \hyperpage{15}
+    \subitem {dowolnyprzycisk}, \hyperpage{15}
+    \subitem {gotoxy}, \hyperpage{15}
+    \subitem {podmien}, \hyperpage{15}
+
+  \indexspace
+
+  \item {klawiatura}
+    \subitem {gra.h}, \hyperpage{10}
+  \item {kordy}, \hyperpage{5}
+
+  \indexspace
+
+  \item {nowamapa}
+    \subitem {edytormap.h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {obslugapliku.h}, \hyperpage{16}
+    \subitem {czytaniemapy}, \hyperpage{16}
+    \subitem {zapiszmape}, \hyperpage{17}
+    \subitem {zczytaj}, \hyperpage{17}
+    \subitem {zczytajtablice}, \hyperpage{18}
+  \item {otwdrzwi}
+    \subitem {gra.h}, \hyperpage{10}
+
+  \indexspace
+
+  \item {podmien}
+    \subitem {Header.h}, \hyperpage{15}
+  \item {pole}, \hyperpage{6}
+  \item {poruszaniesie}
+    \subitem {gra.h}, \hyperpage{12}
+  \item {poruszprzeciwnikami}
+    \subitem {przeciwnicy.h}, \hyperpage{20}
+  \item {potworprzed}
+    \subitem {przeciwnicy.h}, \hyperpage{21}
+  \item {przeciwnicy.h}, \hyperpage{18}
+    \subitem {dodprzec}, \hyperpage{18}
+    \subitem {gdzieiscprze}, \hyperpage{20}
+    \subitem {poruszprzeciwnikami}, \hyperpage{20}
+    \subitem {potworprzed}, \hyperpage{21}
+    \subitem {ruchnormalny}, \hyperpage{21}
+    \subitem {ruchnormalnyzw}, \hyperpage{22}
+    \subitem {ruchodwrotny}, \hyperpage{22}
+    \subitem {ruchodwrotnyzw}, \hyperpage{22}
+    \subitem {usunprzeciw}, \hyperpage{23}
+    \subitem {wyszczscruch}, \hyperpage{23}
+    \subitem {zmianapozycjiprze}, \hyperpage{24}
+    \subitem {znajdzprzeciwnika}, \hyperpage{24}
+  \item {przemieszczenie}
+    \subitem {edytormap.h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {ruch}
+    \subitem {gra.h}, \hyperpage{12}
+  \item {ruchnormalny}
+    \subitem {przeciwnicy.h}, \hyperpage{21}
+  \item {ruchnormalnyzw}
+    \subitem {przeciwnicy.h}, \hyperpage{22}
+  \item {ruchodwrotny}
+    \subitem {przeciwnicy.h}, \hyperpage{22}
+  \item {ruchodwrotnyzw}
+    \subitem {przeciwnicy.h}, \hyperpage{22}
+
+  \indexspace
+
+  \item {staramapa}
+    \subitem {edytormap.h}, \hyperpage{8}
+
+  \indexspace
+
+  \item {tablicawynikow}
+    \subitem {tablicawynikow.h}, \hyperpage{25}
+  \item {tablicawynikow.h}, \hyperpage{24}
+    \subitem {dodajwynik}, \hyperpage{25}
+    \subitem {tablicawynikow}, \hyperpage{25}
+    \subitem {wipiszdotablicy}, \hyperpage{25}
+    \subitem {zapisztablice}, \hyperpage{26}
+  \item {tabwyn}, \hyperpage{6}
+
+  \indexspace
+
+  \item {usuncalamape}
+    \subitem {usuwanie.h}, \hyperpage{26}
+  \item {usunekwipunek}
+    \subitem {usuwanie.h}, \hyperpage{27}
+  \item {usunliste}
+    \subitem {usuwanie.h}, \hyperpage{27}
+  \item {usunmape}
+    \subitem {usuwanie.h}, \hyperpage{27}
+  \item {usunnazwe}
+    \subitem {usuwanie.h}, \hyperpage{28}
+  \item {usunprzeciw}
+    \subitem {przeciwnicy.h}, \hyperpage{23}
+  \item {usuntablice}
+    \subitem {usuwanie.h}, \hyperpage{28}
+  \item {usuwanie.h}, \hyperpage{26}
+    \subitem {usuncalamape}, \hyperpage{26}
+    \subitem {usunekwipunek}, \hyperpage{27}
+    \subitem {usunliste}, \hyperpage{27}
+    \subitem {usunmape}, \hyperpage{27}
+    \subitem {usunnazwe}, \hyperpage{28}
+    \subitem {usuntablice}, \hyperpage{28}
+
+  \indexspace
+
+  \item {wipiszdotablicy}
+    \subitem {tablicawynikow.h}, \hyperpage{25}
+  \item {wktorastrone}
+    \subitem {edytormap.h}, \hyperpage{8}
+  \item {wpisz}
+    \subitem {edytormap.h}, \hyperpage{8}
+  \item {wrog}, \hyperpage{6}
+  \item {wypisywanie.h}, \hyperpage{28}
+    \subitem {wypiszekw}, \hyperpage{28}
+    \subitem {wypiszmapa}, \hyperpage{29}
+    \subitem {wypiszmapiekw}, \hyperpage{29}
+    \subitem {wypiszpomchodzenie}, \hyperpage{29}
+    \subitem {wypiszpomoc}, \hyperpage{30}
+  \item {wypiszekw}
+    \subitem {wypisywanie.h}, \hyperpage{28}
+  \item {wypiszmapa}
+    \subitem {wypisywanie.h}, \hyperpage{29}
+  \item {wypiszmapiekw}
+    \subitem {wypisywanie.h}, \hyperpage{29}
+  \item {wypiszpomchodzenie}
+    \subitem {wypisywanie.h}, \hyperpage{29}
+  \item {wypiszpomoc}
+    \subitem {wypisywanie.h}, \hyperpage{30}
+  \item {wyszczscruch}
+    \subitem {przeciwnicy.h}, \hyperpage{23}
+
+  \indexspace
+
+  \item {zapiszmape}
+    \subitem {obslugapliku.h}, \hyperpage{17}
+  \item {zapisztablice}
+    \subitem {tablicawynikow.h}, \hyperpage{26}
+  \item {zczytaj}
+    \subitem {obslugapliku.h}, \hyperpage{17}
+  \item {zczytajtablice}
+    \subitem {obslugapliku.h}, \hyperpage{18}
+  \item {zmianapozycjiprze}
+    \subitem {przeciwnicy.h}, \hyperpage{24}
+  \item {znajdzprzeciwnika}
+    \subitem {przeciwnicy.h}, \hyperpage{24}
+  \item {znajdzwekw}
+    \subitem {gra.h}, \hyperpage{13}
+  \item {znaklu}
+    \subitem {gra.h}, \hyperpage{13}
+
+\end{theindex}

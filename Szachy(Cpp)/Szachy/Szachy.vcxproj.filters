@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów\grafika">
+      <UniqueIdentifier>{1b3cb6a2-b40e-44a6-a98b-956ef331fdaa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\figury">
+      <UniqueIdentifier>{9ec4b6ae-4298-4408-be7f-058803d0ebb3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\figury">
+      <UniqueIdentifier>{20dd6988-7283-461f-914a-a0d3e10ca46a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Szachy.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="pole.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="plansza.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="grafika.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="glowna.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ruch.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="pionek.cpp">
+      <Filter>Pliki źródłowe\figury</Filter>
+    </ClCompile>
+    <ClCompile Include="wieza.cpp">
+      <Filter>Pliki źródłowe\figury</Filter>
+    </ClCompile>
+    <ClCompile Include="krol.cpp">
+      <Filter>Pliki źródłowe\figury</Filter>
+    </ClCompile>
+    <ClCompile Include="kon.cpp">
+      <Filter>Pliki źródłowe\figury</Filter>
+    </ClCompile>
+    <ClCompile Include="hetman.cpp">
+      <Filter>Pliki źródłowe\figury</Filter>
+    </ClCompile>
+    <ClCompile Include="goniec.cpp">
+      <Filter>Pliki źródłowe\figury</Filter>
+    </ClCompile>
+    <ClCompile Include="figura.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="zmienne.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="pole.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="plansza.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="enum.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="grafika.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Header.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="glowna.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ruch.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="figura.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="pionek.h">
+      <Filter>Pliki nagłówkowe\figury</Filter>
+    </ClInclude>
+    <ClInclude Include="kon.h">
+      <Filter>Pliki nagłówkowe\figury</Filter>
+    </ClInclude>
+    <ClInclude Include="krol.h">
+      <Filter>Pliki nagłówkowe\figury</Filter>
+    </ClInclude>
+    <ClInclude Include="wieza.h">
+      <Filter>Pliki nagłówkowe\figury</Filter>
+    </ClInclude>
+    <ClInclude Include="goniec.h">
+      <Filter>Pliki nagłówkowe\figury</Filter>
+    </ClInclude>
+    <ClInclude Include="hetman.h">
+      <Filter>Pliki nagłówkowe\figury</Filter>
+    </ClInclude>
+    <ClInclude Include="zmienne.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="bitmapy\bgonb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\bpiob.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\ckrob.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\bkonb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\bwieb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\ckrolb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\bkrob.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\cgonb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\cpiob.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\bkrolb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\ckonb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+    <Image Include="bitmapy\cwieb.png">
+      <Filter>Pliki zasobów\grafika</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

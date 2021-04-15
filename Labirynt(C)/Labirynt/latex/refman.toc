@@ -1,0 +1,81 @@
+\@ifundefined {etoctocstyle}{\let \etoc@startlocaltoc \@gobble \let \etoc@settocdepth \@gobble \let \etoc@depthtag \@gobble \let \etoc@setlocaltop \@gobble }{}
+\babel@toc {polish}{}
+\contentsline {chapter}{\numberline {1}Indeks struktur danych}{1}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Struktury danych}{1}{section.1.1}% 
+\contentsline {chapter}{\numberline {2}Indeks plik\IeC {\'o}w}{3}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Lista plik\IeC {\'o}w}{3}{section.2.1}% 
+\contentsline {chapter}{\numberline {3}Dokumentacja struktur danych}{5}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Dokumentacja struktury Ekwipunekstr}{5}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Dokumentacja struktury kordy}{5}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Dokumentacja struktury pole}{6}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}Dokumentacja struktury tabwyn}{6}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}Dokumentacja struktury wrog}{6}{section.3.5}% 
+\contentsline {chapter}{\numberline {4}Dokumentacja plik\IeC {\'o}w}{7}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Dokumentacja pliku edytormap.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{7}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Dokumentacja funkcji}{7}{subsection.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1.1}edycja()}{7}{subsubsection.4.1.1.1}% 
+\contentsline {subsubsection}{\numberline {4.1.1.2}edytormap()}{8}{subsubsection.4.1.1.2}% 
+\contentsline {subsubsection}{\numberline {4.1.1.3}nowamapa()}{8}{subsubsection.4.1.1.3}% 
+\contentsline {subsubsection}{\numberline {4.1.1.4}przemieszczenie()}{8}{subsubsection.4.1.1.4}% 
+\contentsline {subsubsection}{\numberline {4.1.1.5}staramapa()}{8}{subsubsection.4.1.1.5}% 
+\contentsline {subsubsection}{\numberline {4.1.1.6}wktorastrone()}{8}{subsubsection.4.1.1.6}% 
+\contentsline {subsubsection}{\numberline {4.1.1.7}wpisz()}{9}{subsubsection.4.1.1.7}% 
+\contentsline {section}{\numberline {4.2}Dokumentacja pliku gra.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{9}{section.4.2}% 
+\contentsline {subsection}{\numberline {4.2.1}Dokumentacja funkcji}{9}{subsection.4.2.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1.1}dodlista()}{9}{subsubsection.4.2.1.1}% 
+\contentsline {subsubsection}{\numberline {4.2.1.2}gra()}{10}{subsubsection.4.2.1.2}% 
+\contentsline {subsubsection}{\numberline {4.2.1.3}klawiatura()}{10}{subsubsection.4.2.1.3}% 
+\contentsline {subsubsection}{\numberline {4.2.1.4}otwdrzwi()}{10}{subsubsection.4.2.1.4}% 
+\contentsline {subsubsection}{\numberline {4.2.1.5}poruszaniesie()}{12}{subsubsection.4.2.1.5}% 
+\contentsline {subsubsection}{\numberline {4.2.1.6}ruch()}{12}{subsubsection.4.2.1.6}% 
+\contentsline {subsubsection}{\numberline {4.2.1.7}znajdzwekw()}{13}{subsubsection.4.2.1.7}% 
+\contentsline {subsubsection}{\numberline {4.2.1.8}znaklu()}{13}{subsubsection.4.2.1.8}% 
+\contentsline {section}{\numberline {4.3}Dokumentacja pliku Header.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{14}{section.4.3}% 
+\contentsline {subsection}{\numberline {4.3.1}Dokumentacja funkcji}{15}{subsection.4.3.1}% 
+\contentsline {subsubsection}{\numberline {4.3.1.1}czyszczenie()}{15}{subsubsection.4.3.1.1}% 
+\contentsline {subsubsection}{\numberline {4.3.1.2}czyszczeniebufora()}{15}{subsubsection.4.3.1.2}% 
+\contentsline {subsubsection}{\numberline {4.3.1.3}dowolnyprzycisk()}{15}{subsubsection.4.3.1.3}% 
+\contentsline {subsubsection}{\numberline {4.3.1.4}gotoxy()}{15}{subsubsection.4.3.1.4}% 
+\contentsline {subsubsection}{\numberline {4.3.1.5}podmien()}{15}{subsubsection.4.3.1.5}% 
+\contentsline {section}{\numberline {4.4}Dokumentacja pliku obslugapliku.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{16}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Dokumentacja funkcji}{16}{subsection.4.4.1}% 
+\contentsline {subsubsection}{\numberline {4.4.1.1}czytaniemapy()}{16}{subsubsection.4.4.1.1}% 
+\contentsline {subsubsection}{\numberline {4.4.1.2}zapiszmape()}{17}{subsubsection.4.4.1.2}% 
+\contentsline {subsubsection}{\numberline {4.4.1.3}zczytaj()}{17}{subsubsection.4.4.1.3}% 
+\contentsline {subsubsection}{\numberline {4.4.1.4}zczytajtablice()}{18}{subsubsection.4.4.1.4}% 
+\contentsline {section}{\numberline {4.5}Dokumentacja pliku przeciwnicy.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{18}{section.4.5}% 
+\contentsline {subsection}{\numberline {4.5.1}Dokumentacja funkcji}{18}{subsection.4.5.1}% 
+\contentsline {subsubsection}{\numberline {4.5.1.1}dodprzec()}{19}{subsubsection.4.5.1.1}% 
+\contentsline {subsubsection}{\numberline {4.5.1.2}gdzieiscprze()}{20}{subsubsection.4.5.1.2}% 
+\contentsline {subsubsection}{\numberline {4.5.1.3}poruszprzeciwnikami()}{20}{subsubsection.4.5.1.3}% 
+\contentsline {subsubsection}{\numberline {4.5.1.4}potworprzed()}{21}{subsubsection.4.5.1.4}% 
+\contentsline {subsubsection}{\numberline {4.5.1.5}ruchnormalny()}{21}{subsubsection.4.5.1.5}% 
+\contentsline {subsubsection}{\numberline {4.5.1.6}ruchnormalnyzw()}{22}{subsubsection.4.5.1.6}% 
+\contentsline {subsubsection}{\numberline {4.5.1.7}ruchodwrotny()}{22}{subsubsection.4.5.1.7}% 
+\contentsline {subsubsection}{\numberline {4.5.1.8}ruchodwrotnyzw()}{22}{subsubsection.4.5.1.8}% 
+\contentsline {subsubsection}{\numberline {4.5.1.9}usunprzeciw()}{23}{subsubsection.4.5.1.9}% 
+\contentsline {subsubsection}{\numberline {4.5.1.10}wyszczscruch()}{23}{subsubsection.4.5.1.10}% 
+\contentsline {subsubsection}{\numberline {4.5.1.11}zmianapozycjiprze()}{24}{subsubsection.4.5.1.11}% 
+\contentsline {subsubsection}{\numberline {4.5.1.12}znajdzprzeciwnika()}{24}{subsubsection.4.5.1.12}% 
+\contentsline {section}{\numberline {4.6}Dokumentacja pliku tablicawynikow.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{24}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Dokumentacja funkcji}{25}{subsection.4.6.1}% 
+\contentsline {subsubsection}{\numberline {4.6.1.1}dodajwynik()}{25}{subsubsection.4.6.1.1}% 
+\contentsline {subsubsection}{\numberline {4.6.1.2}tablicawynikow()}{25}{subsubsection.4.6.1.2}% 
+\contentsline {subsubsection}{\numberline {4.6.1.3}wipiszdotablicy()}{25}{subsubsection.4.6.1.3}% 
+\contentsline {subsubsection}{\numberline {4.6.1.4}zapisztablice()}{26}{subsubsection.4.6.1.4}% 
+\contentsline {section}{\numberline {4.7}Dokumentacja pliku usuwanie.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{26}{section.4.7}% 
+\contentsline {subsection}{\numberline {4.7.1}Dokumentacja funkcji}{26}{subsection.4.7.1}% 
+\contentsline {subsubsection}{\numberline {4.7.1.1}usuncalamape()}{26}{subsubsection.4.7.1.1}% 
+\contentsline {subsubsection}{\numberline {4.7.1.2}usunekwipunek()}{27}{subsubsection.4.7.1.2}% 
+\contentsline {subsubsection}{\numberline {4.7.1.3}usunliste()}{27}{subsubsection.4.7.1.3}% 
+\contentsline {subsubsection}{\numberline {4.7.1.4}usunmape()}{27}{subsubsection.4.7.1.4}% 
+\contentsline {subsubsection}{\numberline {4.7.1.5}usunnazwe()}{28}{subsubsection.4.7.1.5}% 
+\contentsline {subsubsection}{\numberline {4.7.1.6}usuntablice()}{28}{subsubsection.4.7.1.6}% 
+\contentsline {section}{\numberline {4.8}Dokumentacja pliku wypisywanie.\discretionary {\unhbox \voidb@x \hbox {\relax \fontsize {7}{8}\selectfont $\leftarrow \joinrel \rhook $}}{}{}h}{28}{section.4.8}% 
+\contentsline {subsection}{\numberline {4.8.1}Dokumentacja funkcji}{28}{subsection.4.8.1}% 
+\contentsline {subsubsection}{\numberline {4.8.1.1}wypiszekw()}{28}{subsubsection.4.8.1.1}% 
+\contentsline {subsubsection}{\numberline {4.8.1.2}wypiszmapa()}{29}{subsubsection.4.8.1.2}% 
+\contentsline {subsubsection}{\numberline {4.8.1.3}wypiszmapiekw()}{29}{subsubsection.4.8.1.3}% 
+\contentsline {subsubsection}{\numberline {4.8.1.4}wypiszpomchodzenie()}{29}{subsubsection.4.8.1.4}% 
+\contentsline {subsubsection}{\numberline {4.8.1.5}wypiszpomoc()}{30}{subsubsection.4.8.1.5}% 
+\contentsline {chapter}{Indeks}{31}{section*.17}% 

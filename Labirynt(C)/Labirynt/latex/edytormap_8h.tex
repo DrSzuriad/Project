@@ -1,0 +1,99 @@
+\hypertarget{edytormap_8h}{}\section{Dokumentacja pliku edytormap.\+h}
+\label{edytormap_8h}\index{edytormap.h@{edytormap.h}}
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{edytormap_8h_a9c72927382171e53faefa87e685a8898}{edytormap}} ()
+\item 
+void \mbox{\hyperlink{edytormap_8h_a11798bcc9a39aa8e874107bd22dbfd32}{nowamapa}} ()
+\item 
+void \mbox{\hyperlink{edytormap_8h_a3ba768cc8a8875f8c0f89887b7f578eb}{staramapa}} ()
+\item 
+void \mbox{\hyperlink{edytormap_8h_aee1128a6237ccb4016415438187bc49a}{wpisz}} (int znak, \mbox{\hyperlink{structkordy}{kordy}} pozycja, \mbox{\hyperlink{structpole}{wskpole}} mapa)
+\item 
+int \mbox{\hyperlink{edytormap_8h_aebfc82bc670d0b2811c99af50f3fb92a}{wktorastrone}} ()
+\item 
+void \mbox{\hyperlink{edytormap_8h_a39229471a7a90dd04edef7a861074cac}{przemieszczenie}} (\mbox{\hyperlink{structkordy}{kordy}} $\ast$pozycja, int wiersze, int kolumny)
+\item 
+void \mbox{\hyperlink{edytormap_8h_abc09c7030042c1288328c3ddea88a992}{edycja}} (\mbox{\hyperlink{structpole}{wskpole}} mapa, int wiersze, int kolumny, \mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnicy, \mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$postac)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{edytormap_8h_abc09c7030042c1288328c3ddea88a992}\label{edytormap_8h_abc09c7030042c1288328c3ddea88a992}} 
+\index{edytormap.h@{edytormap.h}!edycja@{edycja}}
+\index{edycja@{edycja}!edytormap.h@{edytormap.h}}
+\subsubsection{\texorpdfstring{edycja()}{edycja()}}
+{\footnotesize\ttfamily void edycja (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{wskpole}}}]{mapa,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnicy,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$}]{postac }\end{DoxyParamCaption})}
+
+Funkcja pozwala edytowac mape oraz ja zapisac 
+\begin{DoxyParams}{Parametry}
+{\em mapa} & wskaznik na mape \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+{\em przeciwnicy} & wskaznik na liste przeciwnikow \\
+\hline
+{\em pozycja} & postaci na mapie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{edytormap_8h_a9c72927382171e53faefa87e685a8898}\label{edytormap_8h_a9c72927382171e53faefa87e685a8898}} 
+\index{edytormap.h@{edytormap.h}!edytormap@{edytormap}}
+\index{edytormap@{edytormap}!edytormap.h@{edytormap.h}}
+\subsubsection{\texorpdfstring{edytormap()}{edytormap()}}
+{\footnotesize\ttfamily void edytormap (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja obsluguje uruchomienie edytora map \mbox{\Hypertarget{edytormap_8h_a11798bcc9a39aa8e874107bd22dbfd32}\label{edytormap_8h_a11798bcc9a39aa8e874107bd22dbfd32}} 
+\index{edytormap.h@{edytormap.h}!nowamapa@{nowamapa}}
+\index{nowamapa@{nowamapa}!edytormap.h@{edytormap.h}}
+\subsubsection{\texorpdfstring{nowamapa()}{nowamapa()}}
+{\footnotesize\ttfamily void nowamapa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja tworzy nowa mape \mbox{\Hypertarget{edytormap_8h_a39229471a7a90dd04edef7a861074cac}\label{edytormap_8h_a39229471a7a90dd04edef7a861074cac}} 
+\index{edytormap.h@{edytormap.h}!przemieszczenie@{przemieszczenie}}
+\index{przemieszczenie@{przemieszczenie}!edytormap.h@{edytormap.h}}
+\subsubsection{\texorpdfstring{przemieszczenie()}{przemieszczenie()}}
+{\footnotesize\ttfamily void przemieszczenie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{pozycja,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny }\end{DoxyParamCaption})}
+
+Funkcja obsluguje porusznie sie po mapie podczas edycji 
+\begin{DoxyParams}{Parametry}
+{\em pozycja} & aktualna pozycja znacznika \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{edytormap_8h_a3ba768cc8a8875f8c0f89887b7f578eb}\label{edytormap_8h_a3ba768cc8a8875f8c0f89887b7f578eb}} 
+\index{edytormap.h@{edytormap.h}!staramapa@{staramapa}}
+\index{staramapa@{staramapa}!edytormap.h@{edytormap.h}}
+\subsubsection{\texorpdfstring{staramapa()}{staramapa()}}
+{\footnotesize\ttfamily void staramapa (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja wczytuje istniejaca mape \mbox{\Hypertarget{edytormap_8h_aebfc82bc670d0b2811c99af50f3fb92a}\label{edytormap_8h_aebfc82bc670d0b2811c99af50f3fb92a}} 
+\index{edytormap.h@{edytormap.h}!wktorastrone@{wktorastrone}}
+\index{wktorastrone@{wktorastrone}!edytormap.h@{edytormap.h}}
+\subsubsection{\texorpdfstring{wktorastrone()}{wktorastrone()}}
+{\footnotesize\ttfamily int wktorastrone (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja zczytuje od gracza, w ktora strone ma poruszac sie przeciwnik \begin{DoxyReturn}{Zwraca}
+kierunek poruszania sie 
+\end{DoxyReturn}
+\mbox{\Hypertarget{edytormap_8h_aee1128a6237ccb4016415438187bc49a}\label{edytormap_8h_aee1128a6237ccb4016415438187bc49a}} 
+\index{edytormap.h@{edytormap.h}!wpisz@{wpisz}}
+\index{wpisz@{wpisz}!edytormap.h@{edytormap.h}}
+\subsubsection{\texorpdfstring{wpisz()}{wpisz()}}
+{\footnotesize\ttfamily void wpisz (\begin{DoxyParamCaption}\item[{int}]{znak,  }\item[{\mbox{\hyperlink{structkordy}{kordy}}}]{pozycja,  }\item[{\mbox{\hyperlink{structpole}{wskpole}}}]{mapa }\end{DoxyParamCaption})}
+
+Funkcja zapisuje znak do tablicy 
+\begin{DoxyParams}{Parametry}
+{\em znak} & jak iznak ma byc wpisany \\
+\hline
+{\em pozycja} & w jakim miejscu ma sie znajdowac ten znak \\
+\hline
+{\em mapa} & wskaznik na mape \\
+\hline
+\end{DoxyParams}

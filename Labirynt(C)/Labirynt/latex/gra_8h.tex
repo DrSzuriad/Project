@@ -1,0 +1,168 @@
+\hypertarget{gra_8h}{}\section{Dokumentacja pliku gra.\+h}
+\label{gra_8h}\index{gra.h@{gra.h}}
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{gra_8h_a01fac9ba50409959f91457b972fd07c5}{gra}} (\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$p\+Head, char $\ast$nazwa)
+\item 
+bool \mbox{\hyperlink{gra_8h_a06cb82c72f1fc449a95acb9390b9dd4a}{klawiatura}} (\mbox{\hyperlink{structkordy}{kordy}} $\ast$ja, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$p\+Glowa, int wiersze, int kolumny, \mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciw)
+\item 
+bool \mbox{\hyperlink{gra_8h_a82d1c2a1d05cf7eeb584ff0168888642}{poruszaniesie}} (\mbox{\hyperlink{structkordy}{kordy}} $\ast$ja, \mbox{\hyperlink{structkordy}{kordy}} $\ast$kolja, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$p\+Glowa, int wiersze, int kolumny, unsigned char $\ast$tymczasowy, bool $\ast$koniec)
+\item 
+void \mbox{\hyperlink{gra_8h_ac5bf4534638c39239d0d8b39752d9bb5}{dodlista}} (\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$p\+Glowa, unsigned char $\ast$znak)
+\item 
+void \mbox{\hyperlink{gra_8h_a2df53172108e7aa0e4b3329cd529e5ac}{znaklu}} (int wysokosc, \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$p\+Glowa, unsigned char $\ast$znak)
+\item 
+\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$ \mbox{\hyperlink{gra_8h_a9079f1b41ba467faaf109e3109797024}{znajdzwekw}} (\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$p\+Glowa, unsigned char znak)
+\item 
+bool \mbox{\hyperlink{gra_8h_a45150f376dddf2e864f7b6d96598f509}{otwdrzwi}} (int wysokosc, \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$p\+Glowa, unsigned char $\ast$znak)
+\item 
+bool \mbox{\hyperlink{gra_8h_a94065d5a9192cf2b9a1dd59fd44e04a3}{ruch}} (\mbox{\hyperlink{structkordy}{kordy}} $\ast$ja, \mbox{\hyperlink{structkordy}{kordy}} $\ast$kolja)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{gra_8h_ac5bf4534638c39239d0d8b39752d9bb5}\label{gra_8h_ac5bf4534638c39239d0d8b39752d9bb5}} 
+\index{gra.h@{gra.h}!dodlista@{dodlista}}
+\index{dodlista@{dodlista}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{dodlista()}{dodlista()}}
+{\footnotesize\ttfamily void dodlista (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$}]{p\+Glowa,  }\item[{unsigned char $\ast$}]{znak }\end{DoxyParamCaption})}
+
+Funkcja dodaje nowy klucz do listy ekwipunku 
+\begin{DoxyParams}{Parametry}
+{\em p\+Glowa} & wskaznik na liste kluczy ktore posiada gracz \\
+\hline
+{\em znak} & jaki klucz jest wstawiany \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{gra_8h_a01fac9ba50409959f91457b972fd07c5}\label{gra_8h_a01fac9ba50409959f91457b972fd07c5}} 
+\index{gra.h@{gra.h}!gra@{gra}}
+\index{gra@{gra}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{gra()}{gra()}}
+{\footnotesize\ttfamily void gra (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$}]{p\+Head,  }\item[{char $\ast$}]{nazwa }\end{DoxyParamCaption})}
+
+Funkcja obsluguje uruchomienie gry oraz jej zakonczenie 
+\begin{DoxyParams}{Parametry}
+{\em p\+Head} & wskaznik na tablice wynikow \\
+\hline
+{\em nazwa} & imie uzytkownika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{gra_8h_a06cb82c72f1fc449a95acb9390b9dd4a}\label{gra_8h_a06cb82c72f1fc449a95acb9390b9dd4a}} 
+\index{gra.h@{gra.h}!klawiatura@{klawiatura}}
+\index{klawiatura@{klawiatura}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{klawiatura()}{klawiatura()}}
+{\footnotesize\ttfamily bool klawiatura (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{ja,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$}]{p\+Glowa,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciw }\end{DoxyParamCaption})}
+
+Funkcja czysci konslole 
+\begin{DoxyParams}{Parametry}
+{\em ja} & wskaznik na pozycje gracza \\
+\hline
+{\em tablica} & wskaznik na tablice zwierajaca mape \\
+\hline
+{\em p\+Glowa} & wskaznik na tablice wynikow \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+{\em przeciw} & wspaznik na liste przeciwnikow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy gracz wygral (true -\/ wygral, false -\/ przegral) 
+\end{DoxyReturn}
+\mbox{\Hypertarget{gra_8h_a45150f376dddf2e864f7b6d96598f509}\label{gra_8h_a45150f376dddf2e864f7b6d96598f509}} 
+\index{gra.h@{gra.h}!otwdrzwi@{otwdrzwi}}
+\index{otwdrzwi@{otwdrzwi}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{otwdrzwi()}{otwdrzwi()}}
+{\footnotesize\ttfamily bool otwdrzwi (\begin{DoxyParamCaption}\item[{int}]{wysokosc,  }\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$}]{p\+Glowa,  }\item[{unsigned char $\ast$}]{znak }\end{DoxyParamCaption})}
+
+Funkcja usuwa klucz z ekwipunku i otwiera drzwi 
+\begin{DoxyParams}{Parametry}
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em p\+Glowa} & wskaznik na liste kluczy ktore posiada gracz \\
+\hline
+{\em jakie} & drzwi gracz probuje otworzyc \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy udalo sie otworzyc drzwi 
+\end{DoxyReturn}
+\mbox{\Hypertarget{gra_8h_a82d1c2a1d05cf7eeb584ff0168888642}\label{gra_8h_a82d1c2a1d05cf7eeb584ff0168888642}} 
+\index{gra.h@{gra.h}!poruszaniesie@{poruszaniesie}}
+\index{poruszaniesie@{poruszaniesie}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{poruszaniesie()}{poruszaniesie()}}
+{\footnotesize\ttfamily bool poruszaniesie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{ja,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{kolja,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$}]{p\+Glowa,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny,  }\item[{unsigned char $\ast$}]{tymczasowy,  }\item[{bool $\ast$}]{koniec }\end{DoxyParamCaption})}
+
+Funkcja obsluguje porusznie sie gracza 
+\begin{DoxyParams}{Parametry}
+{\em ja} & wskaznik na pozycje gracza \\
+\hline
+{\em kolja} & wskaznik na nastepna pozycje gracza \\
+\hline
+{\em tablica} & wskaznik na tablice zwierajaca mape \\
+\hline
+{\em p\+Glowa} & wskaznik na liste kluczy ktore posiada gracz \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+{\em tymczasowy} & wskaznik na znak jaki miało pole przed wejsciem gracza \\
+\hline
+{\em koniec} & czy gracz doszedl do wyjscia z mapy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wartość sygnału wyjsciowego 
+\end{DoxyReturn}
+\mbox{\Hypertarget{gra_8h_a94065d5a9192cf2b9a1dd59fd44e04a3}\label{gra_8h_a94065d5a9192cf2b9a1dd59fd44e04a3}} 
+\index{gra.h@{gra.h}!ruch@{ruch}}
+\index{ruch@{ruch}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{ruch()}{ruch()}}
+{\footnotesize\ttfamily bool ruch (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{ja,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{kolja }\end{DoxyParamCaption})}
+
+Funkcja zczytuje wcisniety klawisz oraz przekazuje kolejna pozycje gracza 
+\begin{DoxyParams}{Parametry}
+{\em ja} & wskaznik na pozycje gracza \\
+\hline
+{\em kolja} & wskaznik na nastepna pozycje gracza \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy gracz chce wyjsc z rozgrywki 
+\end{DoxyReturn}
+\mbox{\Hypertarget{gra_8h_a9079f1b41ba467faaf109e3109797024}\label{gra_8h_a9079f1b41ba467faaf109e3109797024}} 
+\index{gra.h@{gra.h}!znajdzwekw@{znajdzwekw}}
+\index{znajdzwekw@{znajdzwekw}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{znajdzwekw()}{znajdzwekw()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}}$\ast$ znajdzwekw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$}]{p\+Glowa,  }\item[{unsigned char}]{znak }\end{DoxyParamCaption})}
+
+Funkcja znajduje klucz w ekwipunku 
+\begin{DoxyParams}{Parametry}
+{\em p\+Glowa} & wskaznik na liste kluczy ktore posiada gracz \\
+\hline
+{\em znak} & jaki klucz ma byc zaleziony w ekwipunku \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wskaznik na znaleziony klucz 
+\end{DoxyReturn}
+\mbox{\Hypertarget{gra_8h_a2df53172108e7aa0e4b3329cd529e5ac}\label{gra_8h_a2df53172108e7aa0e4b3329cd529e5ac}} 
+\index{gra.h@{gra.h}!znaklu@{znaklu}}
+\index{znaklu@{znaklu}!gra.h@{gra.h}}
+\subsubsection{\texorpdfstring{znaklu()}{znaklu()}}
+{\footnotesize\ttfamily void znaklu (\begin{DoxyParamCaption}\item[{int}]{wysokosc,  }\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$}]{p\+Glowa,  }\item[{unsigned char $\ast$}]{znak }\end{DoxyParamCaption})}
+
+Funkcja dodaje znaleziony klucz do ekwipunku oraz wypisuje ponownie ekwipunek 
+\begin{DoxyParams}{Parametry}
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em p\+Glowa} & wskaznik na liste kluczy ktore posiada gracz \\
+\hline
+{\em znak} & jaki klucz zostal znaleziony \\
+\hline
+\end{DoxyParams}

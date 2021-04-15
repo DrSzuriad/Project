@@ -1,0 +1,99 @@
+\hypertarget{usuwanie_8h}{}\section{Dokumentacja pliku usuwanie.\+h}
+\label{usuwanie_8h}\index{usuwanie.h@{usuwanie.h}}
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{usuwanie_8h_a974eb48f3f6839518328bc600e3bc122}{usuntablice}} (\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$lista)
+\item 
+void \mbox{\hyperlink{usuwanie_8h_a30b7aad191958d93976e6cb7a7f1d34a}{usunmape}} (\mbox{\hyperlink{structpole}{wskpole}} mapa, int wiersze, int kolumny)
+\item 
+void \mbox{\hyperlink{usuwanie_8h_af4b19373d1d00860fa3618741d5d810d}{usunliste}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnik)
+\item 
+void \mbox{\hyperlink{usuwanie_8h_a24d33939576b697aba84e8fc33f75adf}{usuncalamape}} (\mbox{\hyperlink{structpole}{wskpole}} mapa, int wiersze, int kolumny, \mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnik, \mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$postac)
+\item 
+void \mbox{\hyperlink{usuwanie_8h_ab45bdeed385d697dbc710568d7011918}{usunekwipunek}} (\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$p\+Headekw)
+\item 
+void \mbox{\hyperlink{usuwanie_8h_a5c939d30dbf3e7cbda1d9c99d3ec5031}{usunnazwe}} (char $\ast$$\ast$nazwa)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{usuwanie_8h_a24d33939576b697aba84e8fc33f75adf}\label{usuwanie_8h_a24d33939576b697aba84e8fc33f75adf}} 
+\index{usuwanie.h@{usuwanie.h}!usuncalamape@{usuncalamape}}
+\index{usuncalamape@{usuncalamape}!usuwanie.h@{usuwanie.h}}
+\subsubsection{\texorpdfstring{usuncalamape()}{usuncalamape()}}
+{\footnotesize\ttfamily void usuncalamape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{wskpole}}}]{mapa,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnik,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$$\ast$}]{postac }\end{DoxyParamCaption})}
+
+Funkcja zwalnia pamiec zajeta prze mape oraz liste przeciwnikow i postac 
+\begin{DoxyParams}{Parametry}
+{\em mapa} & wskaznik na mape \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilisc kolumn mapy \\
+\hline
+{\em przeciwnik} & wskaznik na liste przeciwnikow \\
+\hline
+{\em postac} & wskaznik na miejsce, w ktorym znajduje sie postac \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{usuwanie_8h_ab45bdeed385d697dbc710568d7011918}\label{usuwanie_8h_ab45bdeed385d697dbc710568d7011918}} 
+\index{usuwanie.h@{usuwanie.h}!usunekwipunek@{usunekwipunek}}
+\index{usunekwipunek@{usunekwipunek}!usuwanie.h@{usuwanie.h}}
+\subsubsection{\texorpdfstring{usunekwipunek()}{usunekwipunek()}}
+{\footnotesize\ttfamily void usunekwipunek (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$$\ast$}]{p\+Headekw }\end{DoxyParamCaption})}
+
+Funkcja zwalnia pamiec zajeta przez liste przedmiotow 
+\begin{DoxyParams}{Parametry}
+{\em p\+Headekw} & wskaznik na liste przedmiotow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{usuwanie_8h_af4b19373d1d00860fa3618741d5d810d}\label{usuwanie_8h_af4b19373d1d00860fa3618741d5d810d}} 
+\index{usuwanie.h@{usuwanie.h}!usunliste@{usunliste}}
+\index{usunliste@{usunliste}!usuwanie.h@{usuwanie.h}}
+\subsubsection{\texorpdfstring{usunliste()}{usunliste()}}
+{\footnotesize\ttfamily void usunliste (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnik }\end{DoxyParamCaption})}
+
+Funkcja zwalnia pamiec zajenta przez liste przeciwnikow 
+\begin{DoxyParams}{Parametry}
+{\em przeciwnik} & wskaznik na liste przeciwnikow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{usuwanie_8h_a30b7aad191958d93976e6cb7a7f1d34a}\label{usuwanie_8h_a30b7aad191958d93976e6cb7a7f1d34a}} 
+\index{usuwanie.h@{usuwanie.h}!usunmape@{usunmape}}
+\index{usunmape@{usunmape}!usuwanie.h@{usuwanie.h}}
+\subsubsection{\texorpdfstring{usunmape()}{usunmape()}}
+{\footnotesize\ttfamily void usunmape (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{wskpole}}}]{mapa,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny }\end{DoxyParamCaption})}
+
+Funkcja zwalnia pamiec zajeta przez mape 
+\begin{DoxyParams}{Parametry}
+{\em mapa} & wskaznik na mape \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilisc kolumn mapy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{usuwanie_8h_a5c939d30dbf3e7cbda1d9c99d3ec5031}\label{usuwanie_8h_a5c939d30dbf3e7cbda1d9c99d3ec5031}} 
+\index{usuwanie.h@{usuwanie.h}!usunnazwe@{usunnazwe}}
+\index{usunnazwe@{usunnazwe}!usuwanie.h@{usuwanie.h}}
+\subsubsection{\texorpdfstring{usunnazwe()}{usunnazwe()}}
+{\footnotesize\ttfamily void usunnazwe (\begin{DoxyParamCaption}\item[{char $\ast$$\ast$}]{nazwa }\end{DoxyParamCaption})}
+
+Funkcja zwalnia pamiec zajenta przez nazwe gracza 
+\begin{DoxyParams}{Parametry}
+{\em nazwa} & imie uzytkownika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{usuwanie_8h_a974eb48f3f6839518328bc600e3bc122}\label{usuwanie_8h_a974eb48f3f6839518328bc600e3bc122}} 
+\index{usuwanie.h@{usuwanie.h}!usuntablice@{usuntablice}}
+\index{usuntablice@{usuntablice}!usuwanie.h@{usuwanie.h}}
+\subsubsection{\texorpdfstring{usuntablice()}{usuntablice()}}
+{\footnotesize\ttfamily void usuntablice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$}]{lista }\end{DoxyParamCaption})}
+
+Funkcja zwalnia pamiec zajenta przez liste wynikow 
+\begin{DoxyParams}{Parametry}
+{\em lista} & wskaznik na liste wynikow \\
+\hline
+\end{DoxyParams}

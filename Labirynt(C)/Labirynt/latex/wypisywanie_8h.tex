@@ -1,0 +1,84 @@
+\hypertarget{wypisywanie_8h}{}\section{Dokumentacja pliku wypisywanie.\+h}
+\label{wypisywanie_8h}\index{wypisywanie.h@{wypisywanie.h}}
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{wypisywanie_8h_a098a7760274b7c18258467dc6bdcd785}{wypiszekw}} (\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$p\+Glowa)
+\item 
+void \mbox{\hyperlink{wypisywanie_8h_a8c16d05ac0ec0da19de516175e730f54}{wypiszmapiekw}} (\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wiersze, int kolumny, \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$ekw)
+\item 
+void \mbox{\hyperlink{wypisywanie_8h_a8248915da2028ca529de72a362d764ae}{wypiszmapa}} (\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wiersze, int kolumny)
+\item 
+void \mbox{\hyperlink{wypisywanie_8h_aa623df9f488f328ef63f5ff3a7ccf8ca}{wypiszpomoc}} (int szerokosc)
+\item 
+void \mbox{\hyperlink{wypisywanie_8h_a64156c1c1f12a44a45a74470e527722b}{wypiszpomchodzenie}} (int kolumny)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{wypisywanie_8h_a098a7760274b7c18258467dc6bdcd785}\label{wypisywanie_8h_a098a7760274b7c18258467dc6bdcd785}} 
+\index{wypisywanie.h@{wypisywanie.h}!wypiszekw@{wypiszekw}}
+\index{wypiszekw@{wypiszekw}!wypisywanie.h@{wypisywanie.h}}
+\subsubsection{\texorpdfstring{wypiszekw()}{wypiszekw()}}
+{\footnotesize\ttfamily void wypiszekw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$}]{p\+Glowa }\end{DoxyParamCaption})}
+
+Funkcja wypisuje w konsoli ekwipunek 
+\begin{DoxyParams}{Parametry}
+{\em p\+Glowa} & wskaznik na liste przedmiotow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{wypisywanie_8h_a8248915da2028ca529de72a362d764ae}\label{wypisywanie_8h_a8248915da2028ca529de72a362d764ae}} 
+\index{wypisywanie.h@{wypisywanie.h}!wypiszmapa@{wypiszmapa}}
+\index{wypiszmapa@{wypiszmapa}!wypisywanie.h@{wypisywanie.h}}
+\subsubsection{\texorpdfstring{wypiszmapa()}{wypiszmapa()}}
+{\footnotesize\ttfamily void wypiszmapa (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny }\end{DoxyParamCaption})}
+
+Funkcja wypisuje w konsoli mape 
+\begin{DoxyParams}{Parametry}
+{\em tablica} & wskaznik na mape \\
+\hline
+{\em wiersze} & ilosc wierczy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{wypisywanie_8h_a8c16d05ac0ec0da19de516175e730f54}\label{wypisywanie_8h_a8c16d05ac0ec0da19de516175e730f54}} 
+\index{wypisywanie.h@{wypisywanie.h}!wypiszmapiekw@{wypiszmapiekw}}
+\index{wypiszmapiekw@{wypiszmapiekw}!wypisywanie.h@{wypisywanie.h}}
+\subsubsection{\texorpdfstring{wypiszmapiekw()}{wypiszmapiekw()}}
+{\footnotesize\ttfamily void wypiszmapiekw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny,  }\item[{\mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} $\ast$}]{ekw }\end{DoxyParamCaption})}
+
+Funkcja wypisuje w konsoli mape i ekwipunek 
+\begin{DoxyParams}{Parametry}
+{\em tablica} & wskaznik na mape \\
+\hline
+{\em wiersze} & ilosc wierczy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+{\em ekw} & wskaznik na liste przedmiotow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{wypisywanie_8h_a64156c1c1f12a44a45a74470e527722b}\label{wypisywanie_8h_a64156c1c1f12a44a45a74470e527722b}} 
+\index{wypisywanie.h@{wypisywanie.h}!wypiszpomchodzenie@{wypiszpomchodzenie}}
+\index{wypiszpomchodzenie@{wypiszpomchodzenie}!wypisywanie.h@{wypisywanie.h}}
+\subsubsection{\texorpdfstring{wypiszpomchodzenie()}{wypiszpomchodzenie()}}
+{\footnotesize\ttfamily void wypiszpomchodzenie (\begin{DoxyParamCaption}\item[{int}]{kolumny }\end{DoxyParamCaption})}
+
+Funkcja wypisuje pomoc w trybie chodzenia w edytorze map 
+\begin{DoxyParams}{Parametry}
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{wypisywanie_8h_aa623df9f488f328ef63f5ff3a7ccf8ca}\label{wypisywanie_8h_aa623df9f488f328ef63f5ff3a7ccf8ca}} 
+\index{wypisywanie.h@{wypisywanie.h}!wypiszpomoc@{wypiszpomoc}}
+\index{wypiszpomoc@{wypiszpomoc}!wypisywanie.h@{wypisywanie.h}}
+\subsubsection{\texorpdfstring{wypiszpomoc()}{wypiszpomoc()}}
+{\footnotesize\ttfamily void wypiszpomoc (\begin{DoxyParamCaption}\item[{int}]{szerokosc }\end{DoxyParamCaption})}
+
+Funkcja wypisuje pomoc w edytorze map 
+\begin{DoxyParams}{Parametry}
+{\em szerokosc} & ilosc kolumn mapy \\
+\hline
+\end{DoxyParams}

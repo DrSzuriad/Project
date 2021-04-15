@@ -1,0 +1,6 @@
+
+LIBRARY asmlib
+EXPORTS asmobliczvx
+EXPORTS asmobliczvy
+EXPORTS asmobliczsx
+EXPORTS asmobliczsy

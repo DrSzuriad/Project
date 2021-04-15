@@ -1,0 +1,199 @@
+\hypertarget{_header_8h}{}\section{Dokumentacja pliku Header.\+h}
+\label{_header_8h}\index{Header.h@{Header.h}}
+{\ttfamily \#include $<$stdbool.\+h$>$}\newline
+\subsection*{Struktury danych}
+\begin{DoxyCompactItemize}
+\item 
+struct \mbox{\hyperlink{structpole}{pole}}
+\item 
+struct \mbox{\hyperlink{structkordy}{kordy}}
+\item 
+struct \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}}
+\item 
+struct \mbox{\hyperlink{structwrog}{wrog}}
+\item 
+struct \mbox{\hyperlink{structtabwyn}{tabwyn}}
+\end{DoxyCompactItemize}
+\subsection*{Definicje typów}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_header_8h_a000db8438705f3d229a97c03108e5129}\label{_header_8h_a000db8438705f3d229a97c03108e5129}} 
+typedef \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$$\ast$ {\bfseries wskpole}
+\item 
+\mbox{\Hypertarget{_header_8h_af73e37c1cb8d213203f18894d5914592}\label{_header_8h_af73e37c1cb8d213203f18894d5914592}} 
+typedef struct \mbox{\hyperlink{struct_ekwipunekstr}{Ekwipunekstr}} {\bfseries Ekwipunekstr}
+\item 
+\mbox{\Hypertarget{_header_8h_ad5773c64f456a60cad7bcf5adff20156}\label{_header_8h_ad5773c64f456a60cad7bcf5adff20156}} 
+typedef struct \mbox{\hyperlink{structwrog}{wrog}} {\bfseries wrog}
+\item 
+\mbox{\Hypertarget{_header_8h_a8d740b7d1ca79fe19dc296ba74bf9cf5}\label{_header_8h_a8d740b7d1ca79fe19dc296ba74bf9cf5}} 
+typedef struct \mbox{\hyperlink{structtabwyn}{tabwyn}} {\bfseries tabwyn}
+\end{DoxyCompactItemize}
+\subsection*{Wyliczenia}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{_header_8h_a76d4faf0a6accbc2bd4ad927df185c5e}\label{_header_8h_a76d4faf0a6accbc2bd4ad927df185c5e}} 
+enum {\bfseries rodzaj} \{ \newline
+{\bfseries glr} = 201, 
+{\bfseries gpr} = 187, 
+{\bfseries dlr} = 200, 
+{\bfseries dpr} = 188, 
+\newline
+{\bfseries poz} = 205, 
+{\bfseries pio} = 186, 
+{\bfseries lsc} = 204, 
+{\bfseries psc} = 185, 
+\newline
+{\bfseries gsc} = 203, 
+{\bfseries dsc} = 202, 
+{\bfseries sro} = 204, 
+{\bfseries kro} = 248, 
+\newline
+{\bfseries pus} = 32, 
+{\bfseries klu1} =\textquotesingle{}a\textquotesingle{}, 
+{\bfseries klu2} =\textquotesingle{}b\textquotesingle{}, 
+{\bfseries klu3} =\textquotesingle{}c\textquotesingle{}, 
+\newline
+{\bfseries klu4}, 
+{\bfseries klu5}, 
+{\bfseries klu6}, 
+{\bfseries zam1} =\textquotesingle{}A\textquotesingle{}, 
+\newline
+{\bfseries zam2} =\textquotesingle{}B\textquotesingle{}, 
+{\bfseries zam3} =\textquotesingle{}C\textquotesingle{}, 
+{\bfseries zam4}, 
+{\bfseries zam5}, 
+\newline
+{\bfseries zam6}, 
+{\bfseries wyjscie} =\textquotesingle{}X\textquotesingle{}
+ \}
+\item 
+\mbox{\Hypertarget{_header_8h_a505e78e241ebcc60ff20edd8224c690c}\label{_header_8h_a505e78e241ebcc60ff20edd8224c690c}} 
+enum {\bfseries czmwej} \{ {\bfseries tak} = 0, 
+{\bfseries nie} = 1, 
+{\bfseries drz} = 2, 
+{\bfseries kon} = 3
+ \}
+\item 
+\mbox{\Hypertarget{_header_8h_a523a87d9a894d880c547110f14ee9830}\label{_header_8h_a523a87d9a894d880c547110f14ee9830}} 
+enum {\bfseries sterowanie} \{ \newline
+{\bfseries zkps} =224, 
+{\bfseries zkps0} =0, 
+{\bfseries lewo} =75, 
+{\bfseries prawo} =77, 
+\newline
+{\bfseries gora} =72, 
+{\bfseries dol} =80
+ \}
+\item 
+\mbox{\Hypertarget{_header_8h_ad18bc6463accc7dbfeb131b54d2bb96e}\label{_header_8h_ad18bc6463accc7dbfeb131b54d2bb96e}} 
+enum {\bfseries postacie} \{ {\bfseries gracz} =208, 
+{\bfseries potwor} = 245
+ \}
+\item 
+\mbox{\Hypertarget{_header_8h_acec76347fc6905f9e80263959abbb547}\label{_header_8h_acec76347fc6905f9e80263959abbb547}} 
+enum {\bfseries elementydlagracza} \{ \newline
+{\bfseries chodzenie} =1, 
+{\bfseries eglr}, 
+{\bfseries egpr}, 
+{\bfseries edlr}, 
+\newline
+{\bfseries edpr}, 
+{\bfseries epoz}, 
+{\bfseries epio}, 
+{\bfseries elsc}, 
+\newline
+{\bfseries epsc}, 
+{\bfseries egsc}, 
+{\bfseries edsc}, 
+{\bfseries esro}, 
+\newline
+{\bfseries ekro}, 
+{\bfseries epus}, 
+{\bfseries eklu1}, 
+{\bfseries eklu2}, 
+\newline
+{\bfseries eklu3}, 
+{\bfseries eklu4}, 
+{\bfseries eklu5}, 
+{\bfseries eklu6}, 
+\newline
+{\bfseries ezam1}, 
+{\bfseries ezam2}, 
+{\bfseries ezam3}, 
+{\bfseries ezam4}, 
+\newline
+{\bfseries ezam5}, 
+{\bfseries ezam6}, 
+{\bfseries ewyjscie}, 
+{\bfseries epotwor}, 
+\newline
+{\bfseries egracz}, 
+{\bfseries wyjsciezzapisem}, 
+{\bfseries wyjsciebezzapisu}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{_header_8h_ae824443b3f661414ba1f2718e17fe97d}{gotoxy}} (int x, int y)
+\item 
+void \mbox{\hyperlink{_header_8h_ac841c0f0c82ffb939d808943b1a75d30}{czyszczenie}} ()
+\item 
+void \mbox{\hyperlink{_header_8h_a805d08f0235ce20426e931a551040bac}{czyszczeniebufora}} ()
+\item 
+void \mbox{\hyperlink{_header_8h_ab7a64dbe23c737b3f32cbffe8e558bb0}{podmien}} (int wiersz, int kolumna, int znak, int wysokosc)
+\item 
+void \mbox{\hyperlink{_header_8h_a5ad1a8ae0e33856d6a2dbbc0f599323a}{dowolnyprzycisk}} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{_header_8h_ac841c0f0c82ffb939d808943b1a75d30}\label{_header_8h_ac841c0f0c82ffb939d808943b1a75d30}} 
+\index{Header.h@{Header.h}!czyszczenie@{czyszczenie}}
+\index{czyszczenie@{czyszczenie}!Header.h@{Header.h}}
+\subsubsection{\texorpdfstring{czyszczenie()}{czyszczenie()}}
+{\footnotesize\ttfamily void czyszczenie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja czysci konslole \mbox{\Hypertarget{_header_8h_a805d08f0235ce20426e931a551040bac}\label{_header_8h_a805d08f0235ce20426e931a551040bac}} 
+\index{Header.h@{Header.h}!czyszczeniebufora@{czyszczeniebufora}}
+\index{czyszczeniebufora@{czyszczeniebufora}!Header.h@{Header.h}}
+\subsubsection{\texorpdfstring{czyszczeniebufora()}{czyszczeniebufora()}}
+{\footnotesize\ttfamily void czyszczeniebufora (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja usuwa wszystkie elementy z bufora stdin \mbox{\Hypertarget{_header_8h_a5ad1a8ae0e33856d6a2dbbc0f599323a}\label{_header_8h_a5ad1a8ae0e33856d6a2dbbc0f599323a}} 
+\index{Header.h@{Header.h}!dowolnyprzycisk@{dowolnyprzycisk}}
+\index{dowolnyprzycisk@{dowolnyprzycisk}!Header.h@{Header.h}}
+\subsubsection{\texorpdfstring{dowolnyprzycisk()}{dowolnyprzycisk()}}
+{\footnotesize\ttfamily void dowolnyprzycisk (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Funkcja czeka, az gracz wcisnie dowolny klawisz \mbox{\Hypertarget{_header_8h_ae824443b3f661414ba1f2718e17fe97d}\label{_header_8h_ae824443b3f661414ba1f2718e17fe97d}} 
+\index{Header.h@{Header.h}!gotoxy@{gotoxy}}
+\index{gotoxy@{gotoxy}!Header.h@{Header.h}}
+\subsubsection{\texorpdfstring{gotoxy()}{gotoxy()}}
+{\footnotesize\ttfamily void gotoxy (\begin{DoxyParamCaption}\item[{int}]{x,  }\item[{int}]{y }\end{DoxyParamCaption})}
+
+Funkcja przemieszcza kursor wpisywania na podana pozycje 
+\begin{DoxyParams}{Parametry}
+{\em x} & pozycja w pionie \\
+\hline
+{\em y} & pozycja w poziomie \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{_header_8h_ab7a64dbe23c737b3f32cbffe8e558bb0}\label{_header_8h_ab7a64dbe23c737b3f32cbffe8e558bb0}} 
+\index{Header.h@{Header.h}!podmien@{podmien}}
+\index{podmien@{podmien}!Header.h@{Header.h}}
+\subsubsection{\texorpdfstring{podmien()}{podmien()}}
+{\footnotesize\ttfamily void podmien (\begin{DoxyParamCaption}\item[{int}]{wiersz,  }\item[{int}]{kolumna,  }\item[{int}]{znak,  }\item[{int}]{wysokosc }\end{DoxyParamCaption})}
+
+Funkcja wpisuje znak w podanym miejscu 
+\begin{DoxyParams}{Parametry}
+{\em wiersz} & w ktorym wierszu ma byc wstawiony znak \\
+\hline
+{\em kolumna} & w ktorej kolumnie ma byc wstawiony znak \\
+\hline
+{\em znak} & jaki znak ma byc wstawiony \\
+\hline
+{\em wysokosc} & mapy \\
+\hline
+\end{DoxyParams}

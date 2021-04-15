@@ -1,0 +1,67 @@
+\hypertarget{tablicawynikow_8h}{}\section{Dokumentacja pliku tablicawynikow.\+h}
+\label{tablicawynikow_8h}\index{tablicawynikow.h@{tablicawynikow.h}}
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{tablicawynikow_8h_ac426e384075a87f4458894f4f73f97d9}{dodajwynik}} (\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$p\+Head, \mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$nowy)
+\item 
+void \mbox{\hyperlink{tablicawynikow_8h_a38c28bdddb488acc4c0ff8be585b5618}{tablicawynikow}} (\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$p\+Head)
+\item 
+void \mbox{\hyperlink{tablicawynikow_8h_ab6a0b9a5fe7b118c284f1cd9e9cb331b}{wipiszdotablicy}} (\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$p\+Head, char nazwa\mbox{[}30\mbox{]}, int ptk)
+\item 
+void \mbox{\hyperlink{tablicawynikow_8h_a7cb6b8556f94f59e0d9be9e8704a68c3}{zapisztablice}} (\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$p\+Head)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{tablicawynikow_8h_ac426e384075a87f4458894f4f73f97d9}\label{tablicawynikow_8h_ac426e384075a87f4458894f4f73f97d9}} 
+\index{tablicawynikow.h@{tablicawynikow.h}!dodajwynik@{dodajwynik}}
+\index{dodajwynik@{dodajwynik}!tablicawynikow.h@{tablicawynikow.h}}
+\subsubsection{\texorpdfstring{dodajwynik()}{dodajwynik()}}
+{\footnotesize\ttfamily void dodajwynik (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$}]{p\+Head,  }\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$}]{nowy }\end{DoxyParamCaption})}
+
+Funkcja dodaje nowy wynik do listy wynikow 
+\begin{DoxyParams}{Parametry}
+{\em p\+Head} & wskaznik na tablice wynikow \\
+\hline
+{\em nowy} & wstawiany element tablicy \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{tablicawynikow_8h_a38c28bdddb488acc4c0ff8be585b5618}\label{tablicawynikow_8h_a38c28bdddb488acc4c0ff8be585b5618}} 
+\index{tablicawynikow.h@{tablicawynikow.h}!tablicawynikow@{tablicawynikow}}
+\index{tablicawynikow@{tablicawynikow}!tablicawynikow.h@{tablicawynikow.h}}
+\subsubsection{\texorpdfstring{tablicawynikow()}{tablicawynikow()}}
+{\footnotesize\ttfamily void tablicawynikow (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$}]{p\+Head }\end{DoxyParamCaption})}
+
+Funkcja wypisuje tablice wynikow 
+\begin{DoxyParams}{Parametry}
+{\em p\+Head} & wskaznik na tablice wynikow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{tablicawynikow_8h_ab6a0b9a5fe7b118c284f1cd9e9cb331b}\label{tablicawynikow_8h_ab6a0b9a5fe7b118c284f1cd9e9cb331b}} 
+\index{tablicawynikow.h@{tablicawynikow.h}!wipiszdotablicy@{wipiszdotablicy}}
+\index{wipiszdotablicy@{wipiszdotablicy}!tablicawynikow.h@{tablicawynikow.h}}
+\subsubsection{\texorpdfstring{wipiszdotablicy()}{wipiszdotablicy()}}
+{\footnotesize\ttfamily void wipiszdotablicy (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$$\ast$}]{p\+Head,  }\item[{char}]{nazwa\mbox{[}30\mbox{]},  }\item[{int}]{ptk }\end{DoxyParamCaption})}
+
+Funkcja wpisuje do tablicy uzyskany przez gracza wynik 
+\begin{DoxyParams}{Parametry}
+{\em p\+Head} & wskaznik na tablice wynikow \\
+\hline
+{\em nazwa} & imie gracza \\
+\hline
+{\em ptk} & ilosc punktow jakie uzyskal gracz \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{tablicawynikow_8h_a7cb6b8556f94f59e0d9be9e8704a68c3}\label{tablicawynikow_8h_a7cb6b8556f94f59e0d9be9e8704a68c3}} 
+\index{tablicawynikow.h@{tablicawynikow.h}!zapisztablice@{zapisztablice}}
+\index{zapisztablice@{zapisztablice}!tablicawynikow.h@{tablicawynikow.h}}
+\subsubsection{\texorpdfstring{zapisztablice()}{zapisztablice()}}
+{\footnotesize\ttfamily void zapisztablice (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structtabwyn}{tabwyn}} $\ast$}]{p\+Head }\end{DoxyParamCaption})}
+
+Funkcja zapisuje tablice wynikow do pliku 
+\begin{DoxyParams}{Parametry}
+{\em p\+Head} & wskaznik na tablice wynikow \\
+\hline
+\end{DoxyParams}

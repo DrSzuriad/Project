@@ -1,0 +1,256 @@
+\hypertarget{przeciwnicy_8h}{}\section{Dokumentacja pliku przeciwnicy.\+h}
+\label{przeciwnicy_8h}\index{przeciwnicy.h@{przeciwnicy.h}}
+{\ttfamily \#include \char`\"{}Header.\+h\char`\"{}}\newline
+\subsection*{Funkcje}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{przeciwnicy_8h_a675c2d5b997ed061de6e914b0284e7aa}{dodprzec}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnicy, \mbox{\hyperlink{structkordy}{kordy}} pozycja, int kierunek, int naczym)
+\item 
+void \mbox{\hyperlink{przeciwnicy_8h_a4a8f776b5004e6fd65a47de648b609d8}{zmianapozycjiprze}} (\mbox{\hyperlink{structkordy}{kordy}} $\ast$ja, \mbox{\hyperlink{structkordy}{kordy}} $\ast$kolja, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wiersze, unsigned char $\ast$tymczasowy)
+\item 
+\mbox{\hyperlink{structwrog}{wrog}} $\ast$ \mbox{\hyperlink{przeciwnicy_8h_a2f3d87a57164bd45f24415511da3ecc0}{znajdzprzeciwnika}} (\mbox{\hyperlink{structkordy}{kordy}} gdzie, \mbox{\hyperlink{structwrog}{wrog}} $\ast$przec)
+\item 
+void \mbox{\hyperlink{przeciwnicy_8h_af651db171eaf380c20b2926327668c5c}{ruchnormalny}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$przeciw, \mbox{\hyperlink{structkordy}{kordy}} $\ast$kolejne)
+\item 
+void \mbox{\hyperlink{przeciwnicy_8h_af61856d311e952d7d17b7d212ee2e273}{ruchodwrotny}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$przeciw, \mbox{\hyperlink{structkordy}{kordy}} $\ast$kolejne)
+\item 
+bool \mbox{\hyperlink{przeciwnicy_8h_a7ed6e6bb2ad289e2a2ba30f7e3436089}{ruchnormalnyzw}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$przeciw, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wysokosc, int szerokosc, bool $\ast$koniec, \mbox{\hyperlink{structkordy}{kordy}} $\ast$kolejne, \mbox{\hyperlink{structwrog}{wrog}} $\ast$wszyscy)
+\item 
+bool \mbox{\hyperlink{przeciwnicy_8h_a1678f94c9f77d277fd30b3c824bf7975}{ruchodwrotnyzw}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$przeciw, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wysokosc, int szerokosc, bool $\ast$koniec, \mbox{\hyperlink{structkordy}{kordy}} $\ast$kolejne, \mbox{\hyperlink{structwrog}{wrog}} $\ast$wszyscy)
+\item 
+bool \mbox{\hyperlink{przeciwnicy_8h_a0844cfbce21d4f99b5c130f30b77d520}{potworprzed}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$przeciw, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wysokosc, int szerokosc, bool $\ast$koniec, \mbox{\hyperlink{structkordy}{kordy}} odkogo, bool sciana, \mbox{\hyperlink{structwrog}{wrog}} $\ast$wszyscy)
+\item 
+void \mbox{\hyperlink{przeciwnicy_8h_aa2df79dffad1b742c4d85794336fd76a}{gdzieiscprze}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$przeciw, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wysokosc, int szerokosc, bool $\ast$koniec, \mbox{\hyperlink{structwrog}{wrog}} $\ast$wszyscy)
+\item 
+void \mbox{\hyperlink{przeciwnicy_8h_acea2c8d976e236999820cc062c57607c}{wyszczscruch}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciw)
+\item 
+bool \mbox{\hyperlink{przeciwnicy_8h_a3e7304ca80398e1a73d91364d8869c92}{poruszprzeciwnikami}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciw, \mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$tablica, int wiersze, int kolumny)
+\item 
+void \mbox{\hyperlink{przeciwnicy_8h_aab68d0b1a8326e3123711ffe36941930}{usunprzeciw}} (\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$przeciwnicy, \mbox{\hyperlink{structkordy}{kordy}} pozycja)
+\end{DoxyCompactItemize}
+
+
+\subsection{Dokumentacja funkcji}
+\mbox{\Hypertarget{przeciwnicy_8h_a675c2d5b997ed061de6e914b0284e7aa}\label{przeciwnicy_8h_a675c2d5b997ed061de6e914b0284e7aa}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!dodprzec@{dodprzec}}
+\index{dodprzec@{dodprzec}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{dodprzec()}{dodprzec()}}
+{\footnotesize\ttfamily void dodprzec (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnicy,  }\item[{\mbox{\hyperlink{structkordy}{kordy}}}]{pozycja,  }\item[{int}]{kierunek,  }\item[{int}]{naczym }\end{DoxyParamCaption})}
+
+Funkcja dodaje przeciwnika do listy przeciwnikow 
+\begin{DoxyParams}{Parametry}
+{\em przeciwnicy} & lista przeciwnikow \\
+\hline
+{\em pozycja} & miejsce w ktorym znajduje sie przeciwnik \\
+\hline
+{\em kierunek} & kierunek, w ktorym porusz sie przeciwnik \\
+\hline
+{\em naczym} & na jakim polu stoi przeciwnik \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{przeciwnicy_8h_aa2df79dffad1b742c4d85794336fd76a}\label{przeciwnicy_8h_aa2df79dffad1b742c4d85794336fd76a}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!gdzieiscprze@{gdzieiscprze}}
+\index{gdzieiscprze@{gdzieiscprze}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{gdzieiscprze()}{gdzieiscprze()}}
+{\footnotesize\ttfamily void gdzieiscprze (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{przeciw,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wysokosc,  }\item[{int}]{szerokosc,  }\item[{bool $\ast$}]{koniec,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{wszyscy }\end{DoxyParamCaption})}
+
+Funkcja wykonuje ruch jednego przeciwnika 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & aktualnie ruszajacy sie przeciwnik \\
+\hline
+{\em tablica} & wkaznik na mape \\
+\hline
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em szerokosc} & ilosc kolumn mapy \\
+\hline
+{\em koniec} & czy gracz zostal zabity \\
+\hline
+{\em wszyscy} & wskaznika na liste przeciwnikow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{przeciwnicy_8h_a3e7304ca80398e1a73d91364d8869c92}\label{przeciwnicy_8h_a3e7304ca80398e1a73d91364d8869c92}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!poruszprzeciwnikami@{poruszprzeciwnikami}}
+\index{poruszprzeciwnikami@{poruszprzeciwnikami}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{poruszprzeciwnikami()}{poruszprzeciwnikami()}}
+{\footnotesize\ttfamily bool poruszprzeciwnikami (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciw,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wiersze,  }\item[{int}]{kolumny }\end{DoxyParamCaption})}
+
+Funkcja wykonuje ruchy wszystkich przeciwnikow 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & wskaznik na liste przeciwnikow \\
+\hline
+{\em tablica} & wskaznik na mape \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em kolumny} & ilosc kolumn mapy \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy gracz zostal zabity 
+\end{DoxyReturn}
+\mbox{\Hypertarget{przeciwnicy_8h_a0844cfbce21d4f99b5c130f30b77d520}\label{przeciwnicy_8h_a0844cfbce21d4f99b5c130f30b77d520}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!potworprzed@{potworprzed}}
+\index{potworprzed@{potworprzed}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{potworprzed()}{potworprzed()}}
+{\footnotesize\ttfamily bool potworprzed (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{przeciw,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wysokosc,  }\item[{int}]{szerokosc,  }\item[{bool $\ast$}]{koniec,  }\item[{\mbox{\hyperlink{structkordy}{kordy}}}]{odkogo,  }\item[{bool}]{sciana,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{wszyscy }\end{DoxyParamCaption})}
+
+Funkcja obsluguje sytuacje gdy na drodze przeciwnika pojawi sie drugi przeciwnik 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & aktualnie ruszajacy sie przeciwnik \\
+\hline
+{\em tablica} & wkaznik na mape \\
+\hline
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em szerokosc} & ilosc kolumn mapy \\
+\hline
+{\em koniec} & czy gracz zostal zabity \\
+\hline
+{\em odkogo} & ktory przeciwnik kazal ruszyc sie aktualnemu przeciwnikowi \\
+\hline
+{\em sciana} & czy przeciwnik wykonuje ruch odwrotny \\
+\hline
+{\em wszyscy} & wskaznika na liste przeciwnikow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy udalo sie wykonac ruch 
+\end{DoxyReturn}
+\mbox{\Hypertarget{przeciwnicy_8h_af651db171eaf380c20b2926327668c5c}\label{przeciwnicy_8h_af651db171eaf380c20b2926327668c5c}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!ruchnormalny@{ruchnormalny}}
+\index{ruchnormalny@{ruchnormalny}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{ruchnormalny()}{ruchnormalny()}}
+{\footnotesize\ttfamily void ruchnormalny (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{przeciw,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{kolejne }\end{DoxyParamCaption})}
+
+Funkcja podaje nastepna pozycje przeciwnika 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & aktualnie ruszjacy sie przeciwnik \\
+\hline
+{\em kolejne} & kolejna pozycja przeciwnika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{przeciwnicy_8h_a7ed6e6bb2ad289e2a2ba30f7e3436089}\label{przeciwnicy_8h_a7ed6e6bb2ad289e2a2ba30f7e3436089}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!ruchnormalnyzw@{ruchnormalnyzw}}
+\index{ruchnormalnyzw@{ruchnormalnyzw}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{ruchnormalnyzw()}{ruchnormalnyzw()}}
+{\footnotesize\ttfamily bool ruchnormalnyzw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{przeciw,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wysokosc,  }\item[{int}]{szerokosc,  }\item[{bool $\ast$}]{koniec,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{kolejne,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{wszyscy }\end{DoxyParamCaption})}
+
+Funkcja obsluguje ruch, gdy potwor idzie zgodnie z aktualnym kierunkiem ruchu 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & aktualnie ruszajacy sie przeciwnik \\
+\hline
+{\em tablica} & wkaznik na mape \\
+\hline
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em szerokosc} & ilosc kolumn mapy \\
+\hline
+{\em koniec} & czy gracz zostal zabity \\
+\hline
+{\em kolejne} & kolejna pozycja przeciwnika \\
+\hline
+{\em wszyscy} & wskaznika na liste przeciwnikow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy udalo sie wykonac ruch 
+\end{DoxyReturn}
+\mbox{\Hypertarget{przeciwnicy_8h_af61856d311e952d7d17b7d212ee2e273}\label{przeciwnicy_8h_af61856d311e952d7d17b7d212ee2e273}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!ruchodwrotny@{ruchodwrotny}}
+\index{ruchodwrotny@{ruchodwrotny}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{ruchodwrotny()}{ruchodwrotny()}}
+{\footnotesize\ttfamily void ruchodwrotny (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{przeciw,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{kolejne }\end{DoxyParamCaption})}
+
+Funkcja podaje pozycje pozycji przeciwnika pod zmianie kierunku oraz zmienia kierunek poruszania sie przeciwnika 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & aktualnie ruszjacy sie przeciwnik \\
+\hline
+{\em kolejne} & kolejna pozycja przeciwnika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{przeciwnicy_8h_a1678f94c9f77d277fd30b3c824bf7975}\label{przeciwnicy_8h_a1678f94c9f77d277fd30b3c824bf7975}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!ruchodwrotnyzw@{ruchodwrotnyzw}}
+\index{ruchodwrotnyzw@{ruchodwrotnyzw}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{ruchodwrotnyzw()}{ruchodwrotnyzw()}}
+{\footnotesize\ttfamily bool ruchodwrotnyzw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{przeciw,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wysokosc,  }\item[{int}]{szerokosc,  }\item[{bool $\ast$}]{koniec,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{kolejne,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{wszyscy }\end{DoxyParamCaption})}
+
+Funkcja obsluguje ruch, gdy potwor nie moze isc zgodnie z wczesniejszym kierunkiem ruchu 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & aktualnie ruszajacy sie przeciwnik \\
+\hline
+{\em tablica} & wkaznik na mape \\
+\hline
+{\em wysokosc} & ilosc wierszy mapy \\
+\hline
+{\em szerokosc} & ilosc kolumn mapy \\
+\hline
+{\em koniec} & czy gracz zostal zabity \\
+\hline
+{\em kolejne} & kolejna pozycja przeciwnika \\
+\hline
+{\em wszyscy} & wskaznika na liste przeciwnikow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+czy udalo sie wykonac ruch 
+\end{DoxyReturn}
+\mbox{\Hypertarget{przeciwnicy_8h_aab68d0b1a8326e3123711ffe36941930}\label{przeciwnicy_8h_aab68d0b1a8326e3123711ffe36941930}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!usunprzeciw@{usunprzeciw}}
+\index{usunprzeciw@{usunprzeciw}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{usunprzeciw()}{usunprzeciw()}}
+{\footnotesize\ttfamily void usunprzeciw (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciwnicy,  }\item[{\mbox{\hyperlink{structkordy}{kordy}}}]{pozycja }\end{DoxyParamCaption})}
+
+Funkcja usuwa przeciwnika znajdujacego sie na danej pozycji na mapie z listy przeciwnikow 
+\begin{DoxyParams}{Parametry}
+{\em przeciwnicy} & wskaznik na liste przeciwnikow \\
+\hline
+{\em pozycja} & pozycja usuwanego przeciwnika \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{przeciwnicy_8h_acea2c8d976e236999820cc062c57607c}\label{przeciwnicy_8h_acea2c8d976e236999820cc062c57607c}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!wyszczscruch@{wyszczscruch}}
+\index{wyszczscruch@{wyszczscruch}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{wyszczscruch()}{wyszczscruch()}}
+{\footnotesize\ttfamily void wyszczscruch (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$$\ast$}]{przeciw }\end{DoxyParamCaption})}
+
+Funkcja czysci znacznik wykoniania ruchu przez przeciwnikow w danej turze 
+\begin{DoxyParams}{Parametry}
+{\em przeciw} & wskaznik na liste przeciwnikow \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{przeciwnicy_8h_a4a8f776b5004e6fd65a47de648b609d8}\label{przeciwnicy_8h_a4a8f776b5004e6fd65a47de648b609d8}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!zmianapozycjiprze@{zmianapozycjiprze}}
+\index{zmianapozycjiprze@{zmianapozycjiprze}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{zmianapozycjiprze()}{zmianapozycjiprze()}}
+{\footnotesize\ttfamily void zmianapozycjiprze (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{ja,  }\item[{\mbox{\hyperlink{structkordy}{kordy}} $\ast$}]{kolja,  }\item[{\mbox{\hyperlink{structpole}{pole}} $\ast$$\ast$$\ast$}]{tablica,  }\item[{int}]{wiersze,  }\item[{unsigned char $\ast$}]{tymczasowy }\end{DoxyParamCaption})}
+
+Funkcja zmienia pozycje przeciwnika na mapie 
+\begin{DoxyParams}{Parametry}
+{\em ja} & aktualna pozycja przeciwnika \\
+\hline
+{\em kolja} & nastepna pozycja przeciwnika \\
+\hline
+{\em tablica} & wskaznik na mape \\
+\hline
+{\em wiersze} & ilosc wierszy mapy \\
+\hline
+{\em tymczasowy} & na jakim polu stoi przeciwnik \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{przeciwnicy_8h_a2f3d87a57164bd45f24415511da3ecc0}\label{przeciwnicy_8h_a2f3d87a57164bd45f24415511da3ecc0}} 
+\index{przeciwnicy.h@{przeciwnicy.h}!znajdzprzeciwnika@{znajdzprzeciwnika}}
+\index{znajdzprzeciwnika@{znajdzprzeciwnika}!przeciwnicy.h@{przeciwnicy.h}}
+\subsubsection{\texorpdfstring{znajdzprzeciwnika()}{znajdzprzeciwnika()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structwrog}{wrog}}$\ast$ znajdzprzeciwnika (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structkordy}{kordy}}}]{gdzie,  }\item[{\mbox{\hyperlink{structwrog}{wrog}} $\ast$}]{przec }\end{DoxyParamCaption})}
+
+Funkcja szuka przeciwnika znajdujacego sie na danej pozcji w liscie przeciwnikow 
+\begin{DoxyParams}{Parametry}
+{\em gdzie} & pozycja przeciwnika \\
+\hline
+{\em przec} & lista przeciwnikow \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Zwraca}
+wskaznik na znalezionego przeciwnika 
+\end{DoxyReturn}
